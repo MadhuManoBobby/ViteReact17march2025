@@ -1,5 +1,5 @@
 :root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
@@ -45,6 +45,12 @@ button {
   background-color: #1a1a1a;
   cursor: pointer;
   transition: border-color 0.25s;
+  background-color: rgb(69, 2, 2);
+  position: relative;
+  bottom: 2px;
+  border: 2px solid gray;
+  height: 40px;
+  line-height: 10px;
 }
 button:hover {
   border-color: #646cff;
@@ -65,4 +71,30 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+}
+
+input{
+  margin-right: 10px;
+  font-family: cursive;
+  font-size: 1.2em;
+  background-color: antiquewhite;
+  color: brown;
+  font-weight: 800;
+  width: 200px;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.viewCustomer{
+  border: 2px solid gray;
+  color: rgb(181, 158, 175);
+  font-size: 1.5em;
+  font-family: cursive;
+  margin-top: 10px;
+  font-weight: 800px;
+}
+
+h3{
+  color: pink;
+  text-decoration: underline;
 }
